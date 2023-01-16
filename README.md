@@ -17,8 +17,12 @@ You can also revoke the app password at any time if you suspect it may have been
 #http://localhost:3000/send-emails
 ```JSON
 {
- "name": "Martin",
- "bornOn": "1957-01-05",
- "bornIn": "http://www.scotland.org#"
+  "emails": [
+    "anupkumarmridha.net@gmail.com",
+    "anupkumarmridha2020@gmail.com"
+  ],
+  "subject": "Test Email",
+  "text": "This is a test email"
 }
+
 ```
